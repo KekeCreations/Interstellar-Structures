@@ -1,0 +1,86 @@
+{
+  "description": "Nanite Cooling",
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "primary_items": "#minecraft:foot_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 40,
+    "per_level_above_first": 4
+  },
+  "max_cost": {
+    "base": 80,
+    "per_level_above_first": 4
+  },
+  "anvil_cost": 20,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_swimming": false,
+              "is_on_ground": true
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:replace_disk",
+          "block_state": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:magma_block"
+            }
+          },
+          "predicate": {
+            "type": "minecraft:matching_fluids",
+            "fluids": [
+              "minecraft:flowing_lava",
+              "minecraft:lava"
+            ]
+          },
+          "trigger_game_event": "minecraft:block_change",
+          "radius": 2.5,
+          "height": 0
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_swimming": false,
+              "is_on_ground": true
+            },
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:magma_block"
+              }
+            },
+            "periodic_tick": 75
+          }
+        },
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "minecraft:block.lava.extinguish",
+          "volume": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 0.5,
+            "max_exclusive": 0.8
+          },
+          "pitch": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 0.6,
+            "max_exclusive": 1
+          }
+        }
+      }
+    ]
+  }
+}
