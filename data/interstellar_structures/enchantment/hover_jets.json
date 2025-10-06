@@ -1,0 +1,116 @@
+{
+  "description": "Hover Jets",
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "primary_items": "#minecraft:foot_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 30,
+    "per_level_above_first": 2
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 2
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:levitation": {
+                "visible": false
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:flame"
+          },
+          "horizontal_position": {
+            "type": "entity_position",
+            "offset": -0.15,
+            "scale": 1
+          },
+          "vertical_position": {
+            "type": "entity_position",
+            "scale": 1
+          },
+          "horizontal_velocity": {},
+          "vertical_velocity": {}
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:levitation": {
+                "visible": false
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:flame"
+          },
+          "horizontal_position": {
+            "type": "entity_position",
+            "offset": 0.15,
+            "scale": 1
+          },
+          "vertical_position": {
+            "type": "entity_position",
+            "scale": 1
+          },
+          "horizontal_velocity": {},
+          "vertical_velocity": {
+            "base": 0
+          },
+          "speed": 0
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "interstellar_structures:water_walking"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "interstellar_structures:lava_walking"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:levitation": {
+                "amplifier": 0,
+                "visible": false
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "interstellar_structures:hover_jets_clear"
+        }
+      }
+    ]
+  }
+}

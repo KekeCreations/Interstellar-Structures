@@ -1,0 +1,1 @@
+execute if block ~ ~-1 ~ water run effect give @s levitation 1 0 true
