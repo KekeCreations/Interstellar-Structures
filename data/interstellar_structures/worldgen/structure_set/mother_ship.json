@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "interstellar_structures:mother_ship",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 35,
+    "separation": 14,
+    "spread_type": "linear",
+    "salt": 0
+  }
+}
