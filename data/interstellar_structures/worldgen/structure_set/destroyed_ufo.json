@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "interstellar_structures:destroyed_ufo",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 6,
+    "spread_type": "linear",
+    "salt": 0
+  }
+}
