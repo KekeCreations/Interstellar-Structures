@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 18,
+        "max": 20
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pig_spawn_egg",
+          "weight": 2,
+          "quality": 1,
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cow_spawn_egg",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_spawn_egg",
+          "weight": 2,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bee_spawn_egg",
+          "weight": 1,
+          "quality": 1,
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_spawn_egg",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_spawn_egg",
+          "weight": 2,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sheep_spawn_egg",
+          "weight": 2,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_spawn_egg",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "weight": 2,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:horse_spawn_egg",
+          "weight": 2,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wolf_spawn_egg",
+          "weight": 1,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}
