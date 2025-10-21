@@ -1,0 +1,1 @@
+execute as @s in interstellar_structures:rift run tp ~ 250 ~ 
