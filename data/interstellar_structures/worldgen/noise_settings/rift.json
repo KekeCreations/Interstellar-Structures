@@ -326,7 +326,7 @@
                         "then_run": {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:water",
+                            "Name": "minecraft:lava",
                             "Properties": {
                               "level": "0"
                             }
@@ -378,7 +378,7 @@
                         "then_run": {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:water",
+                            "Name": "minecraft:lava",
                             "Properties": {
                               "level": "0"
                             }
@@ -738,7 +738,7 @@
                           {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:water",
+                              "Name": "minecraft:lava",
                               "Properties": {
                                 "level": "0"
                               }
@@ -1541,7 +1541,7 @@
                       "then_run": {
                         "type": "minecraft:block",
                         "result_state": {
-                          "Name": "minecraft:water",
+                          "Name": "minecraft:lava",
                           "Properties": {
                             "level": "0"
                           }

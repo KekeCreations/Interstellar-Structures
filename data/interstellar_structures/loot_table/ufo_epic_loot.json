@@ -10,6 +10,23 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "interstellar_structures:drift_waystone",
+                "interstellar_structures:rift_waystone"
+              ],
+              "only_compatible": false
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 2,
           "quality": 1,
@@ -70,7 +87,9 @@
                 "interstellar_structures:hover_jets",
                 "interstellar_structures:nanite_cooling",
                 "interstellar_structures:nanite_reinforcement",
-                "interstellar_structures:repulsion"
+                "interstellar_structures:repulsion",
+                "interstellar_structures:hydro_jets",
+                "interstellar_structures:shrink_ray"
               ]
             }
           ]

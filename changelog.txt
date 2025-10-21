@@ -1,6 +1,10 @@
 V2.0.0
 - Fixed structures not being randomized enough
 - Added Drift planet
+- Added Rift planet
 - Added 2 new alien base structures for the Drift planet
 - Added 2 new pillager structures for the Drift planet
 - Added moss islands to the Drift Planet
+- Modified UFO structure loot
+- Added Shrink Ray enchantment
+- Added Hydro Jets enchantment

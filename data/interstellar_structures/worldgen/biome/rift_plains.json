@@ -16,7 +16,13 @@
     "music_volume": 1,
     "sky_color": 7254527,
     "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_fog_color": 329011,
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.65
+    }
   },
   "features": [
     [],
@@ -67,7 +73,6 @@
     ],
     [],
     [
-      "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
