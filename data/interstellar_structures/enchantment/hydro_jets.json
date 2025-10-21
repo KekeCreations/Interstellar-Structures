@@ -1,0 +1,65 @@
+{
+  "description": "Hydro Jets",
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "primary_items": "#minecraft:foot_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 30,
+    "per_level_above_first": 2
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 2
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "fluid": {
+                "fluids": "#minecraft:water"
+              }
+            },
+            "flags": {
+              "is_sneaking": true
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "interstellar_structures:hydro_jets"
+            },
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {
+                "type": "minecraft:bubble_column_up"
+              },
+              "horizontal_position": {
+                "type": "entity_position",
+                "offset": -0.15,
+                "scale": 1
+              },
+              "vertical_position": {
+                "type": "entity_position",
+                "scale": 1
+              },
+              "horizontal_velocity": {},
+              "vertical_velocity": {}
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
