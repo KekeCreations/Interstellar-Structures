@@ -1,0 +1,42 @@
+{
+  "type": "interstellar_structures:rift",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "interstellar_structures:rift_plains",
+          "parameters": {
+            "temperature": [
+              -1,
+              0
+            ],
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "interstellar_structures:rift_desert",
+          "parameters": {
+            "temperature": [
+              0,
+              1
+            ],
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    },
+    "settings": "interstellar_structures:rift"
+  }
+}
