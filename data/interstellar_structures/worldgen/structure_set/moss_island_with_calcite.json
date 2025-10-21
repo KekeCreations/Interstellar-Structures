@@ -1,15 +1,15 @@
 {
   "structures": [
     {
-      "structure": "interstellar_structures:corrupted_ufo",
+      "structure": "interstellar_structures:moss_island_with_calcite",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 40,
-    "separation": 8,
+    "spacing": 30,
+    "separation": 7,
     "spread_type": "linear",
-    "salt": 3
+    "salt": 64
   }
 }

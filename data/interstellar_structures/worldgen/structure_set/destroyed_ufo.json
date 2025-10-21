@@ -10,6 +10,6 @@
     "spacing": 25,
     "separation": 6,
     "spread_type": "linear",
-    "salt": 0
+    "salt": 10
   }
 }

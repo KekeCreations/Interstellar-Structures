@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "interstellar_structures:drift_ocean",
+    "interstellar_structures:volcanic_ocean",
+    "interstellar_structures:rocky_ocean"
+  ]
+}

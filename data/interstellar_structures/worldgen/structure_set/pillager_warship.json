@@ -1,15 +1,15 @@
 {
   "structures": [
     {
-      "structure": "interstellar_structures:corrupted_ufo",
+      "structure": "interstellar_structures:pillager_warship",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 40,
-    "separation": 8,
+    "spacing": 45,
+    "separation": 7,
     "spread_type": "linear",
-    "salt": 3
+    "salt": 160
   }
 }

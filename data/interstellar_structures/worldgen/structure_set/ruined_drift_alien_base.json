@@ -1,15 +1,15 @@
 {
   "structures": [
     {
-      "structure": "interstellar_structures:corrupted_ufo",
+      "structure": "interstellar_structures:ruined_drift_alien_base",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 40,
-    "separation": 8,
+    "spacing": 15,
+    "separation": 9,
     "spread_type": "linear",
-    "salt": 3
+    "salt": 650
   }
 }

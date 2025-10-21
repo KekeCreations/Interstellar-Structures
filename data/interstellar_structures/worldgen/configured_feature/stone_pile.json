@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:blackstone"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "rules": []
+    },
+    "radius": 3,
+    "half_height": 3,
+    "target": {
+      "type": "minecraft:has_sturdy_face",
+      "direction": "up"
+    }
+  }
+}
